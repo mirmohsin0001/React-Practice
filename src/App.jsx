@@ -12,13 +12,14 @@ import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import InputComponent from "./InputComponent";
 import ColorPicker from "./ColorPicker";
+import UpdaterFunction from "./UpdaterFunction";
 
 const App = () => {
 
 
   return (
     <>
-      <ColorPicker/>
+      <UpdaterFunction/>
     </>
   );
 
