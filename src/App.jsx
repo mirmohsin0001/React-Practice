@@ -17,11 +17,12 @@ import ObjectComponent from "./ObjectComponent";
 import FoodList from "./FoodList";
 import CarList from "./CarList";
 import ToDoList from "./ToDoList";
+import RandomColorGenerator from "./RandomColorGenerator";
 
 const App = () => {
   return (
     <>
-      <ToDoList />
+      <RandomColorGenerator />
     </>
   );
 
