@@ -14,13 +14,12 @@ import InputComponent from "./InputComponent";
 import ColorPicker from "./ColorPicker";
 import UpdaterFunction from "./UpdaterFunction";
 import ObjectComponent from "./ObjectComponent";
+import FoodList from "./FoodList";
 
 const App = () => {
-
-
   return (
     <>
-      <ObjectComponent/>
+      <FoodList />
     </>
   );
 
