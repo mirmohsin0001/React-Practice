@@ -1,3 +1,7 @@
+# React Practice
+Learning and practicing react from a youtube video by BroCode: https://youtu.be/CgkZ7MvWUAA?si=88z3uDGXwE3ReuPX
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
