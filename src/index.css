@@ -57,7 +57,7 @@
   margin: 0;
 }
 
-.list-category{
+.list-category {
   font-size: 2.5em;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.781);
@@ -69,7 +69,7 @@
   padding: 10px 20px;
 }
 
-.list-items li{
+.list-items li {
   font-size: 2em;
   list-style: none;
   color: hsl(0, 0%, 25%);
@@ -77,26 +77,24 @@
   margin: 0;
 }
 
-.list-items li:hover{
+.list-items li:hover {
   color: hsl(0, 0%, 45%);
   cursor: pointer;
-
 }
 
-.counter-container{
+.counter-container {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.count-display{
+.count-display {
   font-size: 10em;
   color: hsla(0, 0%, 0%, 0.82);
   margin-top: 0;
   margin-bottom: 50px;
-
 }
 
-.counter-button{
+.counter-button {
   width: 150px;
   height: 50px;
   font-size: 1.5em;
@@ -107,10 +105,53 @@
   border: none;
   border-radius: 5000px;
   cursor: pointer;
-  
 }
 
-.counter-button:hover{
+.counter-button:hover {
   background-color: hsla(0, 0%, 0%, 0.836);
+}
 
+.color-picker-component {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200vw;
+}
+
+.color-picker-component h1 {
+  margin: 50px;
+  font-size: 3rem;
+}
+
+.color-display {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(36, 36, 36);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p {
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.color-picker-component label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.color-picker-component input[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
 }

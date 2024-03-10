@@ -11,13 +11,14 @@ import ProfilePicture from "./ProfilePicture";
 import MyComponent from "./MyComponent";
 import Counter from "./Counter";
 import InputComponent from "./InputComponent";
+import ColorPicker from "./ColorPicker";
 
 const App = () => {
 
 
   return (
     <>
-      <InputComponent/>
+      <ColorPicker/>
     </>
   );
 
