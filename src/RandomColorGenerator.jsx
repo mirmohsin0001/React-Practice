@@ -54,7 +54,7 @@ const RandomColorGenerator = () => {
 
         
       }}>
-        <h1>{color}</h1>
+        <h2>{color}</h2>
       </div>
     </div>
   );
