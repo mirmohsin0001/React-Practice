@@ -15,11 +15,12 @@ import ColorPicker from "./ColorPicker";
 import UpdaterFunction from "./UpdaterFunction";
 import ObjectComponent from "./ObjectComponent";
 import FoodList from "./FoodList";
+import CarList from "./CarList";
 
 const App = () => {
   return (
     <>
-      <FoodList />
+      <CarList />
     </>
   );
 
