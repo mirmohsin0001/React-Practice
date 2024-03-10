@@ -13,13 +13,14 @@ import Counter from "./Counter";
 import InputComponent from "./InputComponent";
 import ColorPicker from "./ColorPicker";
 import UpdaterFunction from "./UpdaterFunction";
+import ObjectComponent from "./ObjectComponent";
 
 const App = () => {
 
 
   return (
     <>
-      <UpdaterFunction/>
+      <ObjectComponent/>
     </>
   );
 
