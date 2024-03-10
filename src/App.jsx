@@ -16,11 +16,12 @@ import UpdaterFunction from "./UpdaterFunction";
 import ObjectComponent from "./ObjectComponent";
 import FoodList from "./FoodList";
 import CarList from "./CarList";
+import ToDoList from "./ToDoList";
 
 const App = () => {
   return (
     <>
-      <CarList />
+      <ToDoList />
     </>
   );
 
