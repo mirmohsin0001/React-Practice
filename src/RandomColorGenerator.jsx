@@ -33,27 +33,29 @@ const RandomColorGenerator = () => {
         background: color,
       }}
     >
-      <button
-        onClick={
-          typeOfColor === "hex"
-            ? () => generateRandomHexColor()
-            : () => generateRandomRgbColor()
-        }
+      <div className="buttons">
+        <button
+          onClick={
+            typeOfColor === "hex"
+              ? () => generateRandomHexColor()
+              : () => generateRandomRgbColor()
+          }
+        >
+          Generate random color
+        </button>
+        <button onClick={() => setTypeOfColor("hex")}>Create hex color</button>
+        <button onClick={() => setTypeOfColor("rgb")}>Create rgb color</button>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          color: "white",
+          fontFamily: "arial",
+          marginTop: "200px",
+        }}
       >
-        Generate random color
-      </button>
-      <button onClick={() => setTypeOfColor("hex")}>Create hex color</button>
-      <button onClick={() => setTypeOfColor("rgb")}>Create rgb color</button>
-      <div style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        color: "white",
-        fontFamily: "arial",
-        marginTop: "200px"
-
-        
-      }}>
         <h2>{color}</h2>
       </div>
     </div>

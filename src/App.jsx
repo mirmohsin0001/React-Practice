@@ -22,7 +22,7 @@ import RandomColorGenerator from "./RandomColorGenerator";
 const App = () => {
   return (
     <>
-      <RandomColorGenerator />
+      <ToDoList/>
     </>
   );
 
