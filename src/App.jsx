@@ -1,28 +1,10 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import Food from "./Food";
-import Card from "./Card";
-import Button from "./Button/Button";
-import Student from "./Student";
-import UserGreeting from "./UserGreeting";
-import List from "./List";
-import ProfilePicture from "./ProfilePicture";
-import MyComponent from "./MyComponent";
-import Counter from "./Counter";
-import InputComponent from "./InputComponent";
-import ColorPicker from "./ColorPicker";
-import UpdaterFunction from "./UpdaterFunction";
-import ObjectComponent from "./ObjectComponent";
-import FoodList from "./FoodList";
-import CarList from "./CarList";
-import ToDoList from "./ToDoList";
-import RandomColorGenerator from "./RandomColorGenerator";
+import CarList from "./Components/CarList";
 
 const App = () => {
   return (
     <>
-      <ToDoList/>
+      <CarList />
     </>
   );
 
